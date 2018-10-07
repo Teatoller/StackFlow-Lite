@@ -1,3 +1,11 @@
+/* Global */
+body {
+	display: block;
+	font-family: "Times New Roman", Times, serif;
+	margin: 8px;
+	padding: 0;
+}
+
 /* header */
 header {
 	background: #882D60;
@@ -66,4 +74,24 @@ input[type=text]:focus, input[type=password]:focus {
 	overflow: hidden;
 	padding: 16px;
 	width: 80%
+}
+
+/* footer */
+footer {
+	background-color: #882D60;
+	color: white;
+	margin-top: 10px;
+	padding: 0;
+	text-align: center;
+}
+
+@media(max-width: 768px){
+	header,
+	header nav,
+	header nav li,
+
+#main-area h3 {
+	margin-top: 20px;
+}	
+
 }
